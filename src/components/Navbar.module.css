@@ -1,0 +1,36 @@
+.navbar {
+  background-color: #f2f2f2;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbarLogo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+}
+
+.navbarLinks {
+  list-style: none;
+  display: flex;
+}
+
+.navbarLink {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.navbar-link:hover {
+  color: #666;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  background-clip: text;
+  color: transparent;
+  background-image: linear-gradient(to right, #6366f1, #9f7aea, #f03e9a);
+}
