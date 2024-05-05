@@ -18,7 +18,7 @@ const Navbar = () => {
       <ul className={styles.navbarLinks}>
         {navLinks.map((link) => {
           return (
-            <li className={styles.navbarLink}>
+            <li className={styles.navbarLink} key={link.id}>
               <a href="#">{link.name}</a>
             </li>
           );

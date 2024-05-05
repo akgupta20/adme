@@ -34,3 +34,10 @@
   color: transparent;
   background-image: linear-gradient(to right, #6366f1, #9f7aea, #f03e9a);
 }
+
+@media screen and (max-width: 768px) {
+  .navbarLinks {
+    display: none;
+  }
+    
+}
